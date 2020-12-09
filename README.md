@@ -1,2 +1,2 @@
 # elementor-ext
-Elementor Extension Plugin adds a gallery design option to the free Elementor editor 
+An Elementor Plugin that adds a gallery design option to the free Elementor editor 
