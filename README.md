@@ -8,20 +8,20 @@ A plugin that add widgets in page edit for the Elementor plugin.
 ## Widgets
 ### Dropdown Gallery
  Adds a grid of pictures with a dropdown button below the two first rows of the gallery. When button is clicked the gallery expands to show all picture in the gallery. 
- -- Dropdown Text
+ - Dropdown Text
  Button Text
- -- Image Width
+ - Image Width
  Number of pixels to display one image in the gallery. Valid values is from 100-500 pixels.
- -- Grid Columns
+ - Grid Columns
  Number of columns in the gallery grid. Defaults to show three columns for each row. Valid values is 1,3,4, and 6.
 #### Styles
- -- Show shadow
+ - Show shadow
  Adds a shadow to each image in the gallery
- -- Zoom image
+ - Zoom image
  Zooms images when hoover above an image
- -- Use image carousel
+ - Use image carousel
  Opens a modal carousel to display each image in the gallery.w
- -- Gallery ID
+ - Gallery ID
  An unique ID, which is needed if you want several galleries on one page.
 ## Utility
 Open and edit the file elementor-ext.php:
