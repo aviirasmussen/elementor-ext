@@ -1,0 +1,13 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+/debug.log
+# directory configuration
+# db/data/
+# .dir-locals.el
