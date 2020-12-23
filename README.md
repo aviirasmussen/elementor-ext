@@ -23,7 +23,8 @@ A plugin that add widgets in page edit for the Elementor plugin.
  Opens a modal carousel to display each image in the gallery.w
  - Gallery ID
  An unique ID, which is needed if you want several galleries on one page.
-#### Media Control
+## Controls
+### Youtube emebed video
  - Attach a youtube Video URL to an image in the gallery, and gallery will show an embed youtube video.
 ## Utility
 Open and edit the file elementor-ext.php:
