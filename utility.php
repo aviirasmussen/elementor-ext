@@ -5,8 +5,10 @@ if (!function_exists('debug_log')) {
     function debug_log($log) {
         $filename = realpath(dirname(__FILE__)).'/'.EEP_DEBUG_FILE;
         if (true === EEP_DEBUG) {
-	    
-            $size = filesize($filename);
+            $size = 0;
+            if (file_exists($filename)) {
+                $size = filesize($filename);
+            }	    
             if($size > EEP_DEBUG_MAX_FILE_SIZE){
                 $file = fopen($filename, "a+");
                 ftruncate($file,100);
